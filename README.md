@@ -14,7 +14,6 @@ Each script demonstrates a specific concept I was working on. Here's the breakdo
 | 02\_joke\_fetcher.py     | Fetch a random joke from an API              |
 | 03\_image\_downloader.py | Download an image from a URL                 |
 | 04\_quote\_fetcher.py    | Get a random quote using a JSON API          |
-| 05\_post\_example.py     | Send POST data to a test API                 |
 
 Feel free to look around, explore, and learn from these examples.
 
