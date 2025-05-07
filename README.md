@@ -1,73 +1,69 @@
-# 🐍 requests-practice
+## 🐍 requests-practice
 
-A beginner-friendly collection of mini projects built using Python's `requests` library. This repository was created to practice core concepts like sending HTTP requests, handling responses, parsing JSON, downloading files, and interacting with public APIs.
-
----
-
-## 📚 Projects Included
-
-### 1. ✅ Website Status Checker
-A script that accepts a URL and checks if the website is reachable (HTTP 200) or not. Good for learning how to handle HTTP response codes and connection errors.
-
-### 2. 😂 Joke Fetcher
-Uses the icanhazdadjoke API to fetch and display a random joke. Demonstrates setting custom headers and parsing JSON responses.
-
-### 3. 🖼️ Image Downloader
-Takes an image URL as input and downloads it to your machine. Shows how to stream and save binary content using `requests`.
-
-### 4. 📝 Random Quote Generator
-Fetches a random inspirational quote from a public API and prints it with the author's name. Good practice for working with external data and JSON parsing.
+A collection of mini-projects that I created while learning how to use the `requests` module in Python. These projects helped me get comfortable with sending HTTP requests, handling responses, and interacting with APIs.
 
 ---
 
-## 🛠 Technologies Used
+## 🧱 Project Structure
 
-- Python 3
-- `requests` module
-- Public APIs like:
-  - [icanhazdadjoke](https://icanhazdadjoke.com/api)
-  - [Quotable](https://api.quotable.io)
+Each script demonstrates a specific concept I was working on. Here's the breakdown:
+
+| File                     | Description                                  |
+| ------------------------ | -------------------------------------------- |
+| 01\_status\_checker.py   | Check if a website is up using a GET request |
+| 02\_joke\_fetcher.py     | Fetch a random joke from an API              |
+| 03\_image\_downloader.py | Download an image from a URL                 |
+| 04\_quote\_fetcher.py    | Get a random quote using a JSON API          |
+| 05\_post\_example.py     | Send POST data to a test API                 |
+
+Feel free to look around, explore, and learn from these examples.
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Use
 
-1. Clone the repository:
+1. Clone this repository:
+
    ```bash
-   git clone https://github.com/bakaprince/requests-practice.git
+   git clone https://github.com/bakaprince/requests-practice
    cd requests-practice
-    ```
-
-2. (Optional) Create a virtual environment:
-
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate  # On Windows
    ```
 
-3. Install dependencies:
+2. Install the dependencies:
 
    ```bash
    pip install requests
    ```
 
-4. Run any script:
+3. Run any of the scripts:
 
    ```bash
-   python <filename>.py
+   python 01_status_checker.py
    ```
 
 ---
 
-## 🧑‍💻 About Me
+## 💡 What I Learned
 
-Hi! I'm a beginner Python developer exploring how to interact with the web using APIs and the `requests` library. This repository is part of my personal learning journey — more projects coming soon!
+Through these projects, I learned how to:
+
+* Send GET & POST requests
+* Work with APIs and parse JSON data
+* Handle responses and errors
+* Download files like images
+* Use headers and parameters in requests
 
 ---
 
-## 📬 Feedback or Suggestions?
+## 🛠️ Future Plans
 
-Feel free to open an issue or connect with me on GitHub: [@bakaprince](https://github.com/bakaprince)
+* I'm planning to add more advanced examples.
+* Explore more complex APIs and error handling scenarios.
 
-````
+---
 
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
