@@ -71,11 +71,3 @@ Feel free to open an issue or connect with me on GitHub: [@bakaprince](https://g
 
 ````
 
-Once you paste and save it, commit and push it:
-
-```bash
-git add README.md
-git commit -m "Add README with project descriptions"
-git push
-````
-
