@@ -36,7 +36,7 @@ Fetches a random inspirational quote from a public API and prints it with the au
    ```bash
    git clone https://github.com/bakaprince/requests-practice.git
    cd requests-practice
-````
+    ```
 
 2. (Optional) Create a virtual environment:
 
